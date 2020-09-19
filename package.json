@@ -1,0 +1,23 @@
+{
+  "name": "app-msg-whatsapp",
+  "version": "1.0.0",
+  "description": "simple app for send messages whatsapp",
+  "main": "index.js",
+  "repository": "https://github.com/FernandoCuevasFeliz/app-msg-whatsapp.git",
+  "author": "Fernando Cuevas",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "buid": "node serc/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "morgan": "^1.10.0",
+    "twilio": "^3.49.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
